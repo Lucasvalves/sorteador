@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <link rel="icon" type="image/png" href="./images/trevo.png">
+    <title>Super Sorteio</title>
+
+</head>
+<body>
+    <header>Sorteador de Nomes</header>
+
+    <form class="container">
+    <input class="inputSorteio" type="text" placeholder="Insira um nome...">
+    <button class="btAdd" type="submit"><i class="fas fa-user-plus"></i></button>
+    <button type="button" class="btSortear">Sortear</button>
+    </form>
+    <h1 id="nomeSorteado"></h1>
+    
+    <div class="containerNames">
+        <ol class="listNames"></ol>
+    </div>
+    
+    <script src="sorteio.js"></script>
+</body>
+</html>
